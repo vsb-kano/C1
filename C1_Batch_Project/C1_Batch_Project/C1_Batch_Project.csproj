@@ -65,9 +65,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CE008.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CE008.aspx.cs">
+      <DependentUpon>CE008.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CE008.aspx.designer.cs">
+      <DependentUpon>CE008.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <PropertyGroup>
